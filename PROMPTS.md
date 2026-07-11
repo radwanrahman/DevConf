@@ -1,5 +1,5 @@
 # AI Prompts Used — Placeholder Section
-
+git
 
 Prompt 1: I'm building a landing page for a fictional developer conference
 called DevConf 2026 in HTML/CSS. The page already has a navbar, hero
