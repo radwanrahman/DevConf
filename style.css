@@ -39,6 +39,12 @@ body {
 .nav-links li {
   text-decoration: none;
   color: #222;
+  cursor: pointer;
+}
+
+.nav-links a:hover,
+.nav-links li:hover {
+  color: #ff5a3c;
 }
 
 .btn-register {
@@ -86,7 +92,7 @@ body {
 /* speakers */
 .speakers {
   text-align: center;
-  padding: 80px 20px;
+  padding: 50px 20px;
 }
 
 /* speakers */
@@ -94,7 +100,7 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
-  max-width: 950px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -235,7 +241,7 @@ body {
 
 /* footer */
 .footer {
-  padding: 20px 60px;
+  padding: 20px 5px;
   text-align: center;
   background-color: #1a1a1a;
   color: #aaa;
@@ -261,6 +267,11 @@ body {
 .footer-socials span {
   text-decoration: none;
   color: #fff;
+  cursor: pointer;
+}
+
+.footer-socials span:hover {
+  color: #ff5a3c;
 }
 
 .footer hr {
