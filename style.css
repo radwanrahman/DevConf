@@ -18,10 +18,16 @@ body {
   padding: 20px 60px;
 }
 
+
 .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   font-size: 20px;
   font-weight: bold;
 }
+
+
 
 .nav-links {
   display: flex;
@@ -234,9 +240,14 @@ body {
 }
 
 .footer-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
   font-weight: bold;
   margin-bottom: 15px;
 }
+
 
 .footer-socials {
   display: flex;
